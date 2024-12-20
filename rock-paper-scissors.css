@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: arial;
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.move-icon{
+  height: 50px;
+
+}
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  height:120px ;
+  width:120px ;
+  border-radius:60px ;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.score{
+  margin-top: 60px;
+}
+.resetbutton{
+  border: none;
+  font-size: 15px;
+  padding:8px 10px ;
+  cursor: pointer;
+}
+.auto{
+  border: none;
+  font-size: 15px;
+  padding:8px 10px ;
+  cursor: pointer;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (min-width:307px) and (max-width:767px){
+  .title{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .move-icon{
+    height: 50px;
+  
+  }
+  .move-button{
+    background-color: transparent;
+    border: 3px solid blue;
+    height:120px ;
+    width:120px ;
+    border-radius:60px ;
+    margin: 10px;
+    cursor: pointer;
+  }
+  #scissors{
+    margin:0 25%;
+  }
+  .result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .score{
+    margin-top: 60px;
+  }
+  .resetbutton{
+    border: none;
+    font-size: 15px;
+    padding:8px 10px ;
+    cursor: pointer;
+  }
+  .auto{
+    border: none;
+    font-size: 15px;
+    padding:8px 10px ;
+    cursor: pointer;
+  }
+  
+}
